@@ -170,11 +170,17 @@ p.signed {
     background-color: rgba(0, 0, 0, 0);
 }
 
-#card.open-fully #card-front .wrap *,
+/*#card.open-fully #card-front .wrap *,
 #card.close-half #card-front .wrap * {
    display: none;
+}*/
+#card.open-fully #card-front .wrap #first,
+   display: none;
 }
-
+#card.open-fully #card-front .wrap #secnd,
+   display: block;
+}
+  
 footer {
   max-width: 500px;
   margin: 40px auto;
@@ -203,7 +209,8 @@ footer {
 
     <div id="card-front">
       <div class="wrap">
-        <img src="cake1.gif" style="width:100%;">
+        <img src="cake1.gif" style="width:100%;" id="first">
+        <img src="cake.gif" style="width:100%;" id="secnd">
       </div>
       <button id="open">&gt;</button>
       <button id="close">&lt;</button>
@@ -225,6 +232,7 @@ footer {
     if (timer) clearTimeout(timer);
     timer = setTimeout(function () {
       card.setAttribute('class', 'open-fully');
+      
       timer = null;
     }, 1000);
   });
