@@ -601,7 +601,8 @@ canvas {
 .titlebox h1 { color: #FFF;
 text-align: center;
 font-weight: bold;
-font-size: 45px;
+/*font-size: 45px;*/
+font-size: 30px;
 letter-spacing: 1px;
 font-family: 'Roboto Bold'; 
 }
