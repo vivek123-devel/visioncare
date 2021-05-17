@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   background-size: 100%;
   background-attachment: fixed;
-  font-family: 'Roboto Regular';
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   background-color: #301934; 	
 }
@@ -508,8 +508,8 @@ canvas {
 }
 .plane.main {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 220px;
+  left: 20px;
   right: 0;
   bottom: 0;
   margin: auto;
@@ -604,7 +604,6 @@ font-weight: bold;
 /*font-size: 45px;*/
 font-size: 30px;
 letter-spacing: 1px;
-font-family: 'Roboto Bold'; 
 }
 
 .titlebox p { color: #FFF;
@@ -619,7 +618,7 @@ font-weight: 300; font-size: 22px; letter-spacing:1px; }
     height: 50px;
     line-height: 50px;
     font-size: 18px;
-    text-transform: uppercase; letter-spacing: 1px; margin-top: 40px;  transition: 0.4s; 
+    text-transform: uppercase; letter-spacing: 1px; margin-top: 60px;  transition: 0.4s;  border-radius: 50px;
 }
 .selectbutton2 {
     background: #A541BB;
@@ -632,6 +631,7 @@ font-weight: 300; font-size: 22px; letter-spacing:1px; }
     /*text-transform: uppercase;*/
     letter-spacing: 1px; transition: 0.4s; 
     font-weight: normal;
+    border-radius: 50px;
 }
 .selectbutton2:hover { color: #fff; }
 .animate-bounce  {animation: bounce 1s infinite;}
@@ -650,13 +650,12 @@ font-weight: 300; font-size: 22px; letter-spacing:1px; }
 .selectbutton:hover { color: #fff; }
 .cardimg { width: 100%; float: left; text-align: center; margin-bottom: 25px;}
 .cardimg img { max-width: 180px; width: 100%; border-radius: 15px; border: 1px solid #800080; box-shadow: 10px 10px 5px #ffd700;-moz-box-shadow: 10px 10px 5px #ccc;-webkit-box-shadow: 0 0 30px #ffd700;-khtml-box-shadow: 10px 10px 5px #ccc;}
-.personalized { width: 100%; float: left; /*background-color: rgba(48,28,76,0.9);*/ /*padding: 100px 0;*/ }
+.personalized { width: 100%; float: left;  background-image: linear-gradient(#221335, #3d235e); /*padding: 100px 0;*/ }
 .personalized h2 { padding: 20px;
-letter-spacing: 1px;
 color: #fff;
 text-align: center;
-font-size: 18px;
-line-height: 28px;
+font-size: 30px;
+line-height: 40px;
 }
 
 .personalized span {
@@ -664,27 +663,25 @@ line-height: 28px;
 }
 .personalized ul { list-style: none; }
 .personalized ul li { display: inline-block;
-padding: 10px;
+padding: 10px 0 30px 0;
 color: #fff;
-font-size: 16px;
+font-size: 17px;
 text-align: left;
-font-family: 'Roboto Regular';
-letter-spacing: 1px;
 }
-.personalized ul li span { float: left; font-size: 18px; }
-.personalized ul li p { padding-left: 30px; margin-bottom: 0; }
+.personalized ul li span { float: left; font-size: 18px; position: relative; left: -48px; }
+.personalized ul li p { padding-left: 27px; margin-bottom: 0; text-align: center; }
 
-.videosection { width: 100%; float: left; /*background-color: rgba(61,35,95,0.9);*/ padding: 50px 0 0 0;  }
+.videosection { width: 100%; float: left; background-image: linear-gradient(#3d235e, #3d235f); padding: 50px 0 0 0;  }
 .vdo-bg {
     background: #311b4d;
-    padding: 20px;
+    padding: 30px 20px 20px 20px;
 }
 .videosection h3 { padding: 20px;
 letter-spacing: 1px;
 color: #fff;
 text-align: center;
 font-size: 18px;
-font-family: 'Roboto Regular';
+margin-top: 15px;
 }
 .videosection span {
     font-size: 70px;
@@ -701,12 +698,12 @@ font-family: 'Roboto Regular';
 padding: 10px;
 color: #fff;
 font-size: 14px;
-font-family: 'Roboto Regular';
 letter-spacing: 1px;
 margin-bottom: 0;
 margin-top: 10px;
+width: 100%;
 }
-.oraclecards { width: 100%; float: left;  /*background-color: rgba(61,35,95,0.9);*/ padding: 0; }
+.oraclecards { width: 100%; float: left; background-image: linear-gradient(#3d235f, #3d235f); padding: 0; }
 .oraclecards h2 { padding: 20px;
 letter-spacing: 2px;
 color: #fff;
@@ -717,13 +714,14 @@ word-spacing: 3px; }
 text-align: center;
 font-size: 13px;
 letter-spacing: 2px; }
-.ourmission {  width: 100%; margin:0 auto; max-width: 800px; /*padding:0 0 100px 0;*/ padding:0 0 0 0;}
-.ourmission h2 { padding: 20px;
-letter-spacing: 1px;
+.ourmission {  width: 100%; margin:0 auto;  /*padding:0 0 100px 0;*/ padding:0 0 0 0;}
+.ourmission h2 { padding: 30px 0;
+letter-spacing:0;
 color: #fff;
 text-align: center;
 font-size: 24px;
-font-family: 'Roboto Regular';
+margin: 0;
+font-weight: bold;
  }
 
 .ourmission p { 
@@ -733,14 +731,14 @@ font-size: 14px;
 letter-spacing: 1px;
 }
 
-.questions {  width: 100%; float: left;  padding: 50px 0; /*background: linear-gradient(#2e1a47, #180d25);*/ }
+.questions {  width: 100%; float: left;  padding:50px 0 0 0; background-image: linear-gradient(#3d235f, #3C225D); position: relative; }
+ .faq-bg { width: 100%; float: left; background-image: url(../images/patterns-footer-aits.png); background-size: cover; min-height:400px; }   
 .questions h2 { padding: 0 20px;
-letter-spacing: 1px;
 color: #fff;
 text-align: center;
 font-size: 24px;
 word-spacing: 0;
-margin: 0 0 30px 0; }
+margin: 0 0 30px 0; font-weight: bold; }
 /**/
 #main {
     max-width: 800px;
@@ -820,7 +818,7 @@ letter-spacing: 1px;
 }
 .btn:focus, .btn.focus { box-shadow: none; }
 /**/
-.footer { width: 100%;float: left; background-color: rgba(0,0,0,0.9); padding: 50px 0; }
+.footer { width: 100%;float: left; background-color:#16101E; padding: 20px 0; }
 .footer p { margin:0; font-size: 16px; color: #fff; }
 .footer a { color: #fff; font-size: 16px; margin-left: 10px; }
 #loader{opacity:0.5; background: #000;z-index:44;}
@@ -1064,10 +1062,10 @@ ul.cards-split li.card.card-36 {
   transition-delay: 0.1s;
   border-radius: 15px;
   border: 1px solid #800080;
-  box-shadow: 10px 10px 5px #ffd700;
-  -moz-box-shadow: 10px 10px 5px #ccc;
-  -webkit-box-shadow: 0 0 30px #ffd700;
-  -khtml-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #9e9e9e;
+  /*-moz-box-shadow: 10px 10px 5px #9e9e9e;
+  -webkit-box-shadow: 0 0 30px #9e9e9e;
+  -khtml-box-shadow: 10px 10px 5px #9e9e9e;*/
 }
 
 
@@ -1193,7 +1191,6 @@ ul.cards-split.transition li.card.card-36 {
 .cardmainbox {
     width: 100%;
     float: left;
-    /*background-color: rgba(31,16,44,0.8);
-    padding-bottom: 300px;*/
+    background-color: #221335;
     padding-bottom: 150px;
 }
