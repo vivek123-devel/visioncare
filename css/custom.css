@@ -508,7 +508,7 @@ canvas {
 }
 .plane.main {
   position: absolute;
-  top: 50px;
+  top: 25px;
   left: 20px;
   right: 0;
   bottom: 0;
