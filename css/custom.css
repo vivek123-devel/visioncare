@@ -39,6 +39,11 @@ canvas {
   height: 118vh;
   right:0;
 }
+#particles-js4 {
+  position: absolute;
+  width: 22%;
+  height: 180vh;
+}
 /*.upper {
   background-image: url('../images/voback4.png');
   height: 123vh;
