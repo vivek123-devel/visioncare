@@ -887,7 +887,7 @@ ul.cards-split {
   position: relative;
   margin: 0 auto 20px;
   padding: 20px;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 ul.cards-split li.title {
   margin: 0 0 20px;
