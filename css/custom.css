@@ -818,7 +818,7 @@ letter-spacing: 1px;
 }
 .btn:focus, .btn.focus { box-shadow: none; }
 /**/
-.footer { width: 100%;float: left; background-color:#16101E; padding: 20px 0; }
+.footer { width: 100%;float: left; background-color:#000; padding: 20px 0; }
 .footer p { margin:0; font-size: 16px; color: #fff; }
 .footer a { color: #fff; font-size: 16px; margin-left: 10px; }
 #loader{opacity:0.5; background: #000;z-index:44;}
