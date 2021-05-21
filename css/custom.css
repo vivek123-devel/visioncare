@@ -915,6 +915,10 @@ ul.cards-split li.card {
 ul.cards-split li.card img {
   max-width: 100%;
   height: auto;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 10px gold;}
 }
 /*ul.cards-split li.card div.content {
   padding: 5px 10px;
