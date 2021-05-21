@@ -624,7 +624,7 @@ font-weight: 300; font-size: 22px; letter-spacing:1px; }
     line-height: 50px;
     font-size: 18px;
     text-transform: uppercase; letter-spacing: 1px; margin-top: 60px;  transition: 0.4s;  border-radius: 50px;
-    cursor-pointer:none;
+    cursor:none !important;
 }
 .selectbutton2 {
     background: #A541BB;
