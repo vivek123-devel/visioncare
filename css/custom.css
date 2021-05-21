@@ -682,7 +682,7 @@ text-align: left;
 .personalized ul li span { float: left; font-size: 18px; position: relative; left: -48px; }
 .personalized ul li p { padding-left: 27px; margin-bottom: 0; text-align: center; }
 
-.videosection { width: 100%; float: left; background-image: linear-gradient(#3d235e, #3d235f); padding: 50px 0 0 0;  }
+.videosection { width: 100%; float: left; background-image: linear-gradient(#3d235e, #3d235f); padding: 100px 0 0 0;  }
 .vdo-bg {
     background: #311b4d;
     padding: 30px 20px 20px 20px;
@@ -714,7 +714,7 @@ margin-bottom: 0;
 margin-top: 10px;
 width: 100%;
 }
-.oraclecards { width: 100%; float: left; background-image: linear-gradient(#3d235f, #3d235f); padding: 0; }
+.oraclecards { width: 100%; float: left; background-image: linear-gradient(#3d235f, #3d235f); padding: 100px 0 0 0; }
 .oraclecards h2 { padding: 20px;
 letter-spacing: 2px;
 color: #fff;
@@ -742,7 +742,7 @@ font-size: 14px;
 letter-spacing: 1px;
 }
 
-.questions {  width: 100%; float: left;  padding:50px 0 0 0; background-image: linear-gradient(#3d235f, #000); position: relative; }
+.questions {  width: 100%; float: left;  padding:100px 0 0 0; background-image: linear-gradient(#3d235f, #000); position: relative; }
  .faq-bg { width: 100%; float: left; /*background-image: url(../images/patterns-footer-aits.png);*/ background-size: cover; min-height:400px; }   
 .questions h2 { padding: 0 20px;
 color: #fff;
