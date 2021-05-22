@@ -682,7 +682,7 @@ text-align: left;
 .personalized ul li span { float: left; font-size: 18px; position: relative; left: -48px; }
 .personalized ul li p { padding-left: 27px; margin-bottom: 0; text-align: center; }
 
-.videosection { width: 100%; float: left; background-image: linear-gradient(#3d235e, #3d235f); padding: 180px 0 0 0;  }
+.videosection { width: 100%; float: left; background-image: linear-gradient(#3d235e, #3d235f); padding: 188px 0 0 0;  }
 .vdo-bg {
     background: #311b4d;
     padding: 30px 20px 20px 20px;
@@ -1221,12 +1221,13 @@ button {
   /*letter-spacing: 0.5rem;
   font-size: 2rem;
   box-shadow: 1rem 1rem 4rem #808080;*/
-  font-size: 18px;
+  font-size: 25px;
   position: relative;
   overflow: hidden;
-  width:45%;
+  width:60%;
   background-color: #A541BB;
   border-radius: 15px;
+  font-weight:bold;
 }
 .arrow{
     position: absolute;
