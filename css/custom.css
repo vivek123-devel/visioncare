@@ -628,7 +628,7 @@ font-weight: 300; font-size: 22px; letter-spacing:1px; }
     margin-top: 60px;  
     transition: 0.4s;  
     border-radius: 50px;
-    cursor:none !important;
+    /*cursor:none !important;*/
     text-decoration:none;
 }
 .selectbutton2 {
