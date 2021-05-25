@@ -19,29 +19,29 @@ canvas {
 
 #particles-js {
   position: absolute;
-  width: 27%;
+  /*width: 27%;*/
   height: 118vh;
 }
 #particles-js1 {
   position: absolute;
-  width: 12%;
+  /*width: 12%;*/
   height: 118vh;
 }
 #particles-js2 {
   position: absolute;
-  width: 12%;
+  /*width: 12%;*/
   height: 118vh;
   right:0;
 }
 #particles-js3 {
   position: absolute;
-  width: 22%;
+  /*width: 22%;*/
   height: 118vh;
   right:0;
 }
 #particles-js4 {
   position: absolute;
-  width: 22%;
+  /*width: 22%;*/
   height: 165vh;
 }
 /*.upper {
