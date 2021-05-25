@@ -621,7 +621,7 @@ font-weight: 300; font-size: 22px; letter-spacing:1px; }
     background: none;
     width: 100%;
     color: #fff;
-    height: 50px;
+    /*height: 50px;*/
     line-height: 50px;
     font-size: 18px;
     text-transform: uppercase; 
@@ -631,7 +631,7 @@ font-weight: 300; font-size: 22px; letter-spacing:1px; }
     border-radius: 50px;
     /*cursor:none !important;*/
     text-decoration:none;
-    border:1px solid #800080; 
+    border:3px solid #800080; 
 }
 .selectbutton2 {
     background: #a52381;
