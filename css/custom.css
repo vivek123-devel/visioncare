@@ -617,7 +617,8 @@ font-weight: 300; font-size: 22px; letter-spacing:1px; }
 .cardarea { width: 100%; float: left; margin: 30px 0;}
 .selectbutton {
     max-width: 400px;
-    background: #a52381;
+    /*background: #a52381;*/
+    background: none;
     width: 100%;
     color: #fff;
     height: 50px;
@@ -630,7 +631,7 @@ font-weight: 300; font-size: 22px; letter-spacing:1px; }
     border-radius: 50px;
     /*cursor:none !important;*/
     text-decoration:none;
-    border:0; 
+    border:1px solid #800080; 
 }
 .selectbutton2 {
     background: #a52381;
