@@ -38,6 +38,7 @@ canvas {
   /*width: 22%;*/
   height: 118vh;
   right:0;
+  padding-top:60px;
 }
 #particles-js4 {
   position: absolute;
