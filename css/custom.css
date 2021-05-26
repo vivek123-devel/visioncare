@@ -20,6 +20,7 @@ canvas {
 #particles-js {
   position: absolute;
   /*width: 27%;*/
+    max-width:27%;
     height: 430vh;
 }
 #particles-js1 {
