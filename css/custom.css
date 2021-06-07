@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  background-color: #301934; 	
+  background-color: #221335; 	
 }
 
 canvas {
@@ -39,11 +39,12 @@ canvas {
   height: 430vh;
   right:0;
 }
-#particles-js4 {
+
+
+/*#particles-js4 {
   position: absolute;
-  /*width: 22%;*/
   height: 165vh;
-}
+}*/
 /*.upper {
   background-image: url('../images/voback4.png');
   height: 123vh;
@@ -991,90 +992,6 @@ ul.cards-split li.card.card-14 {
   transition-delay: 0.1s;
 }
 ul.cards-split li.card.card-15 {
-  z-index: 22;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-16 {
-  z-index: 23;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-17 {
-  z-index: 24;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-18 {
-  z-index: 25;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-19 {
-  z-index: 26;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-20 {
-  z-index: 27;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-21 {
-  z-index: 28;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-22 {
-  z-index: 29;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-23 {
-  z-index: 30;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-24 {
-  z-index: 31;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-25 {
-  z-index: 32;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-26 {
-  z-index: 33;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-27 {
-  z-index: 34;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-28 {
-  z-index: 35;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-29 {
-  z-index: 36;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-30 {
-  z-index: 37;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-31 {
-  z-index: 38;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-32 {
-  z-index: 39;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-33 {
-  z-index: 40;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-34 {
-  z-index: 41;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-35 {
-  z-index: 42;
-  transition-delay: 0.1s;
-}
-ul.cards-split li.card.card-36 {
   z-index: 43;
   transition-delay: 0.1s;
   border-radius: 15px;
@@ -1086,6 +1003,7 @@ ul.cards-split li.card.card-36 {
   -webkit-box-shadow: 0 0 30px #9e9e9e;
   -khtml-box-shadow: 10px 10px 5px #9e9e9e;*/
 }
+
 @keyframes mymove {
   50% { box-shadow: 0rem 0rem 3rem #ffd700; }
 }
@@ -1138,74 +1056,15 @@ ul.cards-split.transition li.card.card-14 {
 }
 ul.cards-split.transition li.card.card-15 {
   left: 280px;
-}
-ul.cards-split.transition li.card.card-16 {
-  left: 300px;
-}
-ul.cards-split.transition li.card.card-17 {
-  left: 320px;
-}
-ul.cards-split.transition li.card.card-18 {
-  left: 340px;
-}
-ul.cards-split.transition li.card.card-19 {
-  left: 360px;
-}
-ul.cards-split.transition li.card.card-20 {
-  left: 380px;
-}
-ul.cards-split.transition li.card.card-21 {
-  left: 400px;
-}
-ul.cards-split.transition li.card.card-22 {
-  left: 420px;
-}
-ul.cards-split.transition li.card.card-23 {
-  left: 440px;
-}
-ul.cards-split.transition li.card.card-24 {
-  left: 460px;
-}
-ul.cards-split.transition li.card.card-25 {
-  left: 480px;
-}
-ul.cards-split.transition li.card.card-26 {
-  left: 500px;
-}
-ul.cards-split.transition li.card.card-27 {
-  left: 520px;
-}
-ul.cards-split.transition li.card.card-28 {
-  left: 540px;
-}
-ul.cards-split.transition li.card.card-29 {
-  left: 560px;
-}
-ul.cards-split.transition li.card.card-30 {
-  left: 580px;
-}
-ul.cards-split.transition li.card.card-31 {
-  left: 600px;
-}
-ul.cards-split.transition li.card.card-32 {
-  left: 620px;
-}
-ul.cards-split.transition li.card.card-33 {
-  left: 640px;
-}
-ul.cards-split.transition li.card.card-34 {
-  left: 660px;
-}
-ul.cards-split.transition li.card.card-35 {
-  left: 680px;
-}
-ul.cards-split.transition li.card.card-36 {
-  left: 700px;
   box-shadow: none !important;	  
 }
-.transition{width:80% !important;}
+.transition{width:40% !important;}
 /*card css*/
 
+ul.cards-split.transition li.card:hover {
+    transform: rotateZ(-3deg);
+    top: -10px;
+}
 .middelbox {
     display: table-cell;
     vertical-align: middle;
@@ -1272,3 +1131,194 @@ text-shadow: 1px 1px 2px #427388; }
         transform: rotate(45deg) translate(20px,20px);
     }
 }
+
+/*footer loader css*/
+#particles-js4 {
+  position: absolute;
+    height: 430vh;
+}
+#particles-js5 {
+  position: absolute;
+  height: 430vh;
+  right:0;
+}
+.clk_container {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  animation: rotate-move 8s ease-in-out infinite;
+}
+
+.dot { 
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition-delay: 0.1s;
+  border: 1px solid #800080;
+  animation: mymove 3s infinite;
+  box-shadow: 0rem 0rem 2rem #ffd700;
+}
+.container3 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  /*filter: url('#goo');*/
+  animation: rotate-move 8s ease-in-out infinite;
+}
+@keyframes dot-9-move {
+  20% {transform: scale(1)}
+  45% {transform: translateY(-18px) scale(.45)}
+  60% {transform: translateY(-90px) scale(.45)}
+  80% {transform: translateY(-90px) scale(.45)}
+  100% {transform: translateY(0px) scale(1)}
+}
+
+@keyframes dot-8-move {
+  20% {transform: scale(1)}
+  45% {transform: translate(-16px, 12px) scale(.45)}
+  60% {transform: translate(-80px, 60px) scale(.45)}
+  80% {transform: translate(-80px, 60px) scale(.45)}
+  100% {transform: translateY(0px) scale(1)}
+}
+
+@keyframes dot-7-move {
+  20% {transform: scale(1)}
+  45% {transform: translate(16px, 12px) scale(.45)}
+  60% {transform: translate(80px, 60px) scale(.45)}
+  80% {transform: translate(80px, 60px) scale(.45)}
+  100% {transform: translateY(0px) scale(1)}
+}
+
+.dot-9 {
+  background-color: #f74d75;
+  animation: dot-3-move 2s ease infinite, index 6s ease infinite;
+}
+
+.dot-8 {
+  background-color: #10beae;
+  animation: dot-2-move 2s ease infinite, index 6s -4s ease infinite;
+}
+
+.dot-7 {
+  background-color: #ffe386;
+  animation: dot-1-move 2s ease infinite, index 6s -2s ease infinite;
+}
+
+
+.container1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  /*filter: url('#goo');*/
+  animation: rotate-move 8s ease-in-out infinite;
+}
+@keyframes dot-6-move {
+  20% {transform: scale(1)}
+  45% {transform: translateY(-18px) scale(.45)}
+  60% {transform: translateY(-90px) scale(.45)}
+  80% {transform: translateY(-90px) scale(.45)}
+  100% {transform: translateY(0px) scale(1)}
+}
+
+@keyframes dot-5-move {
+  20% {transform: scale(1)}
+  45% {transform: translate(-16px, 12px) scale(.45)}
+  60% {transform: translate(-80px, 60px) scale(.45)}
+  80% {transform: translate(-80px, 60px) scale(.45)}
+  100% {transform: translateY(0px) scale(1)}
+}
+
+@keyframes dot-4-move {
+  20% {transform: scale(1)}
+  45% {transform: translate(16px, 12px) scale(.45)}
+  60% {transform: translate(80px, 60px) scale(.45)}
+  80% {transform: translate(80px, 60px) scale(.45)}
+  100% {transform: translateY(0px) scale(1)}
+}
+
+.dot-6 {
+  background-color: #f74d75;
+  animation: dot-3-move 2s ease infinite, index 6s ease infinite;
+}
+
+.dot-5 {
+  background-color: #10beae;
+  animation: dot-2-move 2s ease infinite, index 6s -4s ease infinite;
+}
+
+.dot-4 {
+  background-color: #ffe386;
+  animation: dot-1-move 2s ease infinite, index 6s -2s ease infinite;
+}
+
+
+.dot-3 {
+  background-color: #f74d75;
+  animation: dot-3-move 2s ease infinite, index 6s ease infinite;
+}
+
+.dot-2 {
+  background-color: #10beae;
+  animation: dot-2-move 20s ease infinite, index 6s -4s ease infinite;
+}
+
+.dot-1 {
+  background-color: #ffe386;
+  animation: dot-1-move 18s ease infinite, index 6s -2s ease infinite;
+}
+
+@keyframes dot-3-move {
+  20% {transform: scale(1)}
+  45% {transform: translateY(-18px) scale(.45)}
+  60% {transform: translateY(-90px) scale(.45)}
+  80% {transform: translateY(-90px) scale(.45)}
+  100% {transform: translateY(0px) scale(1)}
+}
+
+@keyframes dot-2-move {
+  20% {transform: scale(1)}
+  45% {transform: translate(-16px, 12px) scale(.45)}
+  60% {transform: translate(-80px, 60px) scale(.45)}
+  80% {transform: translate(-80px, 60px) scale(.45)}
+  100% {transform: translateY(0px) scale(1)}
+}
+
+@keyframes dot-1-move {
+  20% {transform: scale(1)}
+  45% {transform: translate(16px, 12px) scale(.45)}
+  60% {transform: translate(80px, 60px) scale(.45)}
+  80% {transform: translate(80px, 60px) scale(.45)}
+  100% {transform: translateY(0px) scale(1)}
+}
+
+@keyframes rotate-move {
+  55% {transform: translate(-50%, -50%) rotate(0deg)}
+  80% {transform: translate(-50%, -50%) rotate(360deg)}
+  100% {transform: translate(-50%, -50%) rotate(360deg)}
+}
+
+@keyframes index {
+  0%, 100% {z-index: 3}
+  33.3% {z-index: 2}
+  66.6% {z-index: 1}
+}
+/*footer loader css*/
