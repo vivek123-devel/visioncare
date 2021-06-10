@@ -1150,7 +1150,7 @@ text-shadow: 1px 1px 2px #427388; }
   left: 50%;
   transform: translate(-50%, -50%);
   margin: auto;
-  animation: rotate-move 8s ease-in-out infinite;
+  animation: rotate-move 4s ease-in-out infinite;
 }
 
 .dot { 
@@ -1178,7 +1178,7 @@ text-shadow: 1px 1px 2px #427388; }
   transform: translate(-50%, -50%);
   margin: auto;
   /*filter: url('#goo');*/
-  animation: rotate-move 8s ease-in-out infinite;
+  animation: rotate-move 4s ease-in-out infinite;
 }
 @keyframes dot-9-move {
   20% {transform: scale(1)}
@@ -1229,7 +1229,7 @@ text-shadow: 1px 1px 2px #427388; }
   transform: translate(-50%, -50%);
   margin: auto;
   /*filter: url('#goo');*/
-  animation: rotate-move 8s ease-in-out infinite;
+  animation: rotate-move 4s ease-in-out infinite;
 }
 @keyframes dot-6-move {
   20% {transform: scale(1)}
