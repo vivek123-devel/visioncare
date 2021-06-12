@@ -1056,7 +1056,7 @@ ul.cards-split.transition li.card.card-14 {
 }
 ul.cards-split.transition li.card.card-15 {
   left: 280px;
-  /*box-shadow: none !important;*/
+  box-shadow: none !important;
 }
 .transition{width:40% !important;}
 /*card css*/
