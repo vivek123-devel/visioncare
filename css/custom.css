@@ -1167,7 +1167,7 @@ text-shadow: 1px 1px 2px #427388; }
   transition-delay: 0.1s;
   border: 1px solid #800080;
   animation: mymove 3s infinite;
-  box-shadow: 0rem 0rem 2rem #ffd700;
+  /*box-shadow: 0rem 0rem 2rem #ffd700;*/
 }
 .container3 {
   width: 200px;
