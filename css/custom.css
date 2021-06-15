@@ -47,6 +47,7 @@ canvas {
 #particles-js9 {
   position: absolute;
   height: 110vh;
+  right:0;
 }
 
 
