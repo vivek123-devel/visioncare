@@ -40,6 +40,15 @@ canvas {
   right:0;
 }
 
+#particles-js8 {
+  position: absolute;
+  height: auto;
+}
+#particles-js9 {
+  position: absolute;
+  height: auto;
+}
+
 
 /*#particles-js4 {
   position: absolute;
