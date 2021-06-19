@@ -1085,6 +1085,12 @@ ul.cards-split.transition li.card:hover {
     background-color: #221335;
     padding-bottom: 150px;
 }
+.cardmainbox2 {
+    width: 100%;
+    float: left;
+    background-color: #221335;
+    padding-bottom: 0px;
+}
 .videosection button {
   background-color: #800080;
   border: 0 solid;
