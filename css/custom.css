@@ -1145,11 +1145,11 @@ text-shadow: 1px 1px 2px #427388; }
 /*footer loader css*/
 #particles-js4 {
   position: absolute;
-    height: 430vh;
+    height: 90vh;
 }
 #particles-js5 {
   position: absolute;
-  height: 430vh;
+  height: 90vh;
   right:0;
 }
 .clk_container {
