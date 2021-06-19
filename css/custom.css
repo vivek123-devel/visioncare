@@ -605,6 +605,13 @@ canvas {
     left: 0; right:-15px;
     border-top: 3px solid #a41c84;
 }
+.main-container2 {
+    position: absolute;
+    /*z-index: 9999;*/
+    top: 0;
+    left: 0; right:-15px;
+    border-top: 3px solid #a41c84;
+}
 .logo img {
     height: auto;
     width: 100%;
