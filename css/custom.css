@@ -50,6 +50,16 @@ canvas {
   right:0;
 }
 
+#particles-js10 {
+  position: absolute;
+  height: 110vh;
+}
+#particles-js11 {
+  position: absolute;
+  height: 110vh;
+  right:0;
+}
+
 
 /*#particles-js4 {
   position: absolute;
@@ -612,6 +622,13 @@ canvas {
     left: 0; right:-15px;
     border-top: 3px solid #a41c84;
 }
+.main-container3 {
+    position: absolute;
+    /*z-index: 9999;*/
+    top: 0;
+    left: 0; right:-15px;
+    border-top: 3px solid #a41c84;
+}
 .logo img {
     height: auto;
     width: 100%;
@@ -947,6 +964,39 @@ ul.cards-split li.card img {
   height: auto;
 }
 
+
+ul.cards-split-signl {
+  width: 640px;
+  height: 350px;
+  list-style-type: none;
+  position: relative;
+  margin: 0 auto 20px;
+  padding: 20px;
+  /*cursor: pointer;*/
+}
+ul.cards-split-signl li.title {
+  margin: 0 0 20px;
+}
+ul.cards-split-signl li.title h2 {
+  font-weight: 700;
+}
+ul.cards-split-signl li.card {
+  /*background: #FFF;*/
+   background: #800080;
+  overflow: hidden;
+  /*height: 200px;*/
+  width: 200px;
+  border-radius: 10px;
+  position: absolute;
+  left: 220px;
+  /*box-shadow: 1px 2px 2px 0 #aaa;*/
+  transition: all 0.4s cubic-bezier(0.63, 0.15, 0.03, 1.12);
+}
+ul.cards-split-signl li.card img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*ul.cards-split li.card div.content {
   padding: 5px 10px;
 }*/
@@ -1020,6 +1070,16 @@ ul.cards-split li.card.card-15 {
   /*-moz-box-shadow: 10px 10px 5px #9e9e9e;
   -webkit-box-shadow: 0 0 30px #9e9e9e;
   -khtml-box-shadow: 10px 10px 5px #9e9e9e;*/
+}
+
+
+ul.cards-split-signl li.card.card-1 {
+  z-index: 43;
+  transition-delay: 0.1s;
+  border-radius: 15px;
+  border: 1px solid #800080;
+  animation: mymove 3s infinite;
+  box-shadow: 0rem 0rem 2rem #ffd700;
 }
 
 @keyframes mymove {
