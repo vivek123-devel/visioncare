@@ -43,10 +43,12 @@ canvas {
 #particles-js8 {
   position: absolute;
   height: 110vh;
+  width: 22%;
 }
 #particles-js9 {
   position: absolute;
   height: 110vh;
+  width: 25%;
   right:0;
 }
 
