@@ -55,12 +55,15 @@ canvas {
 #particles-js10 {
   position: absolute;
   height: 110vh;
+  width: 22%;
 }
 #particles-js11 {
   position: absolute;
   height: 110vh;
   right:0;
+  width: 27%;
 }
+
 
 
 /*#particles-js4 {
