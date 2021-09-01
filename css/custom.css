@@ -19,7 +19,7 @@ canvas {
 
 #particles-js {
   position: absolute;
-  /*width: 27%;*/
+  width: 27%;
     height: 430vh;
 }
 #particles-js1 {
@@ -35,7 +35,7 @@ canvas {
 }
 #particles-js3 {
   position: absolute;
-  /*width: 22%;*/
+  width: 22%;
   height: 430vh;
   right:0;
 }
